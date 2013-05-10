@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CALM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calmzine_is_our_bi_monthly_serving_of_literary_manspiration_it_looks_at_the_world_from_a_real_man_s_perspective_offering_an_eclectic_mix_of_features_and_interviews_that_embrace_what_it_is_to_be_a_young_man_in_the_uk_today_pick_up_on_old_skool_paper_copy_of_the_magazine_in_topman_stores_or_select_venues_across_london_check_out_the_map_to_find_the_stockists_near_you_or_you_can_feast_your_eyes_on_our_fancy_pants_digital_issue_enjoy_">"CALMzine is our bi-monthly serving of literary MANspiration. It looks at the world from a REAL man’s perspective, offering an eclectic mix of features and interviews that embrace what it is to be a young man in the UK today. \n\nPick up on old skool paper copy of the magazine in Topman stores or select venues across London – check out the map to find the stockists near you or you can feast your eyes on our fancy pants digital issue. \n\n\nEnjoy!\n        "</string>
+    <string name="the_campaign_against_living_miserably">Join the campaign against living miserably !</string>
+    <string name="logo">logo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map">Map</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

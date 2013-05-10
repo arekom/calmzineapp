@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff000"
+    android:orientation="vertical"
+    tools:ignore="UselessLeaf,HardcodedText,UselessParent,InefficientWeight,SpUsage,ContentDescription" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/intro_tvdpi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="CALMzine is a FREE serving of literary MANspiration, hitting the streets of LDN every two months. We look at the world from a REAL man’s perspective, offering an eclectic mix of features and interviews that embrace what it is to be a young man in the UK today. So where can I get my hands on one of these amazing magazines? You can pick up on old skool paper copy of the magazine in Topman stores or select venues across London. Check out the map to find stockists, or you can feast your eyes on the digital issue on the website link below."
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You can find this here"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_weight="0.63"
+        android:orientation="horizontal"
+        tools:ignore="NestedWeights" >
+
+        <ImageButton
+            android:id="@+id/facebook_BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.33"
+            android:background="@null"
+            android:src="@drawable/facebook"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/twitter_BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.33"
+            android:background="@null"
+            android:src="@drawable/twitter"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/www_BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.19"
+            android:background="@null"
+            android:src="@drawable/www"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+</LinearLayout>

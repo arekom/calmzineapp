@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff000"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <ImageButton
+        android:id="@+id/mag_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/map_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@drawable/map"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_BTN"
+        android:layout_centerHorizontal="true"
+        android:text="ABOUT THE CALMZINE"
+        android:textColor="#e46f06"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/about_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map_BTN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:src="@drawable/about"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map_BTN"
+        android:layout_centerHorizontal="true"
+        android:text="FIND THE CALMZINE"
+        android:textColor="#e46f06"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mag_BTN"
+        android:layout_centerHorizontal="true"
+        android:text="READ THE CALMZINE"
+        android:textColor="#e46f06"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
